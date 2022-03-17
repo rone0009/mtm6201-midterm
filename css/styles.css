@@ -1,0 +1,217 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #000000;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: white;
+}
+
+.tag-line{
+    margin: .2rem;
+    font-size: .9rem;
+    text-align: center;
+    color: white;
+}
+
+.logo-container {
+    align-content: center;
+    width: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tag-line:hover {
+  color: red;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 50px;
+  padding: 1em;
+  padding-bottom: -20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menulink{
+  margin: 1rem;
+}
+
+.menulink:link {
+  text-decoration: none;
+}
+
+.current {
+  color: blue;
+}
+
+.menulink:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.banner {
+  background-image: url("../images/abelroney.jpeg");
+  background-color: #000000;
+  height: 95%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.overlaybanner{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.123),rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.589),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.466), rgba(255, 255, 255, 0.123));
+  height: 100%;
+  align-items: center;
+  
+}
+
+.bannertext {
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+}
+
+.bannertitle{
+  font-size: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  margin-top: 0px;
+}
+
+.bannertag{
+  font-size: 1rem;
+}
+
+.call{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.call:after {
+  content: "\f879";
+  font-family: FontAwesome;
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.call:hover{
+  padding-right: 24px;
+  padding-left:8px;
+  background-color: red;
+}
+
+.call:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.call {
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(117, 116, 116, 0.7);
+}
+
+.services{
+  align-items: center;
+  text-align: center;
+}
+
+.service-tag {
+  text-align: center;
+}
+
+.service-image{
+  text-align: center;
+  width: 80%;
+  height: 100%;
+}
+
+.action{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-bottom: 2rem;
+}
+
+.action:after {
+  content: "\f061";
+  font-family: FontAwesome;
+  position: absolute;
+  opacity: 0;  
+  top: 10px;
+  right: -20px;
+  transition: 0.5s;
+  color: blue;
+}
+
+.action:hover{
+  padding-right: 24px;
+  padding-left:8px;
+  background-color: red;
+}
+
+.action:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.action {
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(117, 116, 116, 0.7);
+}
+
+footer{
+  align-items: center;
+  text-align: center;
+}
+.footerimage{
+  margin-top: 3rem;
+  width: 3.5rem;
+}
+@media (max-width: 700px) {
+
+ 
+}
