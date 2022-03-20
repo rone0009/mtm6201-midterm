@@ -147,6 +147,7 @@ html, body {
 .services{
   align-items: center;
   text-align: center;
+  padding: 1rem;
 }
 
 .service-tag {
@@ -211,6 +212,90 @@ footer{
   margin-top: 3rem;
   width: 3.5rem;
 }
+
+/* about page css */
+
+.about-section{
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.about-p{
+  text-align: justify;
+  
+}
+
+.team-tag {
+  text-align: center;
+}
+
+.about-image{
+  text-align: center;
+  width: 80%;
+  height: 100%;
+}
+
+.our-team{
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.team-tag {
+  text-align: center;
+}
+
+.team-image{
+  text-align: center;
+  width: 80%;
+  height: 100%;
+}
+
+.action{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin-bottom: 2rem;
+}
+
+.action:after {
+  content: "\f879";
+  font-family: FontAwesome;
+  position: absolute;
+  opacity: 0;  
+  top: 10px;
+  right: -20px;
+  transition: 0.5s;
+  color: blue;
+}
+
+.action:hover{
+  padding-right: 24px;
+  padding-left:8px;
+  background-color: red;
+}
+
+.action:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.action {
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(117, 116, 116, 0.7);
+}
+
 @media (max-width: 700px) {
 
  
