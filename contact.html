@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/76bb045b15.js" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" >
+    <title>Contact</title>
+</head>
+<body>
+    <section class="nav">
+        <div class="logo-container">
+          <img class="logo" src="./images/ar-white.svg" alt="logo-of-ar">
+          <h1 class="tag-line">Abel Roney</a></h1>
+        </div>
+        <ul class="menu">
+          <li><a class="menulink" href="/index.html">Home</a></li>
+          <li><a class="menulink"href="/about.html">About</a></li>
+          <li><a class="menulink current"href="/contact.html">Contact</a></li>
+        </ul>
+    </section> 
+
+    <Section class="contact-section">
+        <h1 class="Contact-h1">Get In Touch With Us</h1>
+        <p class="contact-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae facere, vitae, rerum nam quia id commodi laborum, sint eos consequatur accusantium quidem itaque voluptatibus culpa totam quaerat veniam repudiandae?</p>
+
+        <section class="container">
+            <form action="/action_page.php">
+              <label for="fname">Name</label>
+              <input type="text" id="name" name="name" placeholder="Name...">
+          
+              <label for="lname">Mail ID</label>
+              <input type="email" id="email" name="email" placeholder="Mail ID...">
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Message..." style="height:200px"></textarea>
+
+ <!-- code for sbmit pop-up was refered from https://codeconvey.com/css-modal-popup-on-button-click/ -->
+
+             <div class="box">
+                <a class="button" href="#popup1">Submit</a>
+            </div>
+            
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2 class="pop-h2">Thankyou for contacting us!</h2>
+                    <a class="close" href="#">&times;</a>
+                </div>
+            </div>	
+            </form>
+        </section> 
+
+        
+        <section class="location-section">
+                <h3 class="h3_loc">Location</h3>
+                <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6160.156086580552!2d-75.76328265371289!3d45.34630977888783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1637973838499!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section> 
+
+    <footer>
+        <img class="footerimage" src="./images/ar-white.svg" alt="abel roney logo">
+        <p>Abel Roney’s Design Studio</p>
+        <p>Get quality for done at affordable prices.</p>
+        <p>&copy; copyright Abel Roney, 2021</p>
+        <br>
+    </footer>
+
+</body>
+</html>

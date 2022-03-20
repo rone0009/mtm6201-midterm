@@ -296,6 +296,123 @@ footer{
   box-shadow: 0 10px 20px -8px rgba(117, 116, 116, 0.7);
 }
 
+/* contact page css */
+
+.contact-section{
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact-p{
+  text-align: justify;
+}
+
+input[type=text], select, textarea, input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: .8rem;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px 10px 50px;
+  font-size: 1em;
+  color: white;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: red;
+  border: 2px solid red;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+.popup .pop-h2 {
+  margin: 10px;
+  margin-top: 0;
+  padding-top: 2rem;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: blue;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.gmap{
+  width: 100%;
+}
+
+.location-section{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
 @media (max-width: 700px) {
 
  
