@@ -1,13 +1,13 @@
-html, body {
-  margin: 0;
-  height: 100%;
-  background-color: #000000;
-}
 
-* {
+/* css begins from here */
+
+html, body {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   color: white;
+  margin: 0;
+  height: 100%;
+  background-color: #000000;
 }
 
 .tag-line{
@@ -151,6 +151,7 @@ html, body {
 }
 
 .service-tag {
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -407,13 +408,32 @@ input[type=text], select, textarea, input[type=email] {
 }
 
 .location-section{
-  width: 100%;
+  width: 96%;
   align-items: center;
   text-align: center;
   padding: 1rem;
 }
 
-@media (max-width: 700px) {
+@media screen and (min-width: 820px){
+.bannertext{
+  padding-top: 12rem;
+}
+.service-grid1 , .service-grid2 {
+  align-content: center;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
- 
+.service-image{
+  text-align: center;
+  width: 80%;
+  height: 300px;
+}
+.desc{
+  padding: 1rem;
+}
+
 }
