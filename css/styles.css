@@ -38,7 +38,7 @@ html, body {
   background-color: black;
   height: 50px;
   padding: 1em;
-  padding-bottom: -20px;
+  padding-bottom: 20px;
 }
 
 .menu {
